@@ -1,0 +1,23 @@
+.home {
+    height: 100vh;
+    background: url('./assets/background.jpg') center center no-repeat;
+    background-size: cover;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-shadow: #c46868 0px 0px 13px 0px;
+
+    &-LeftContent {
+        height: 68%;
+        width: 38%;
+        padding-top: 32%;
+        h1 {
+
+        }
+
+        p {
+
+        }
+
+    }
+
+}

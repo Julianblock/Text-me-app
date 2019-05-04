@@ -1,0 +1,17 @@
+
+.top-banner {
+    background: $gradient;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 11px;
+    
+    a {
+        color: white;
+        margin-left: 2px;
+    }
+
+}

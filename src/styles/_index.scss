@@ -1,0 +1,16 @@
+$gradient: linear-gradient(110deg, #c50000, #FF0000);
+
+html {
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Styrene A","Helvetica Neue",sans-serif;
+}
+
+// Importing web components here
+@import './top-banner';
+@import './navbar'; 
+@import './home-greeting';
