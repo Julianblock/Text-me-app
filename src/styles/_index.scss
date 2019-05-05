@@ -10,6 +10,9 @@ body {
     font-family: "Styrene A","Helvetica Neue",sans-serif;
 }
 
+// Animate.css
+@import './animate';
+
 // Importing web components here
 @import './top-banner';
 @import './navbar'; 

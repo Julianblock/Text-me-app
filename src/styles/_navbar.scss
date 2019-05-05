@@ -3,10 +3,12 @@
     width: 100%;
     box-shadow: #e7a3a3 0px 5px 20px 1px;
     background: rgba(255, 255, 255, 0.92);
-    position: fixed;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top: 0;
+    z-index: 1;
 
     &-leftside {
         display: flex;
@@ -52,6 +54,11 @@
         align-items: center;
         border: solid 1px #cecece;
         transition: .9s;
+
+        p {
+            padding: 5px;
+        }
+
     }
 
     &-rightside:hover {

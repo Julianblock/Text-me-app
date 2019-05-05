@@ -4,6 +4,7 @@
         <TopBanner />
         <Navbar />
         <Home />
+        <AboutHome />
         </div>
   </div>
 </template>
@@ -12,6 +13,7 @@
 import TopBanner from './components/Top-Banner.vue';
 import Navbar from './components/Navbar.vue';
 import Home from './components/Home-greeting.vue';
+import AboutHome from './components/Home-about.vue'
 
 export default {
 
@@ -19,7 +21,8 @@ export default {
   components: {
   TopBanner, 
   Navbar,
-  Home
+  Home,
+  AboutHome
   }
 }
 </script>
