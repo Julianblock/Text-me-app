@@ -1,0 +1,24 @@
+.footer {
+    padding: 3%;
+    background: $gradient;
+    color: white;
+
+    &-content{
+        display: flex;
+    }
+    
+    &-col {
+        width: 33.333333333333%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-copywright{
+        display: flex;
+        justify-content: center;
+    }
+}
