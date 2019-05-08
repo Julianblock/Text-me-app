@@ -7,6 +7,10 @@
         <Navbar />
         <Home />
         <AboutHome />
+        <AboutBroadcast />
+        <EmailBox />
+        <HomeMoney />
+        <HomeSection4 />
         <Footer />
         </div>
   </div>
@@ -17,6 +21,10 @@ import TopBanner from './components/Top-Banner.vue';
 import Navbar from './components/Navbar.vue';
 import Home from './components/Home-greeting.vue';
 import AboutHome from './components/Home-about.vue';
+import AboutBroadcast from './components/Home-about-broadcast.vue';
+import EmailBox from './components/email-box.vue';
+import HomeMoney from './components/Home-most-money.vue';
+import HomeSection4 from './components/Home-section-4.vue';
 import Footer from './components/Footer.vue';
 
 export default {
@@ -27,6 +35,10 @@ export default {
   Navbar,
   Home,
   AboutHome,
+  AboutBroadcast,
+  EmailBox,
+  HomeMoney,
+  HomeSection4,
   Footer
   }
 }

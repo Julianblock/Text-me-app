@@ -1,0 +1,40 @@
+.email-box {
+    display: flex;
+    color: #fff;
+    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    box-shadow: #c4c4c4 0px 15px 20px 0px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #f0f0f0 0px 15px 20px 0px;
+
+    input {
+        background: #fff;
+        color: #000;
+        height: 55px;
+        font-size: 18px;
+        width: 60%;
+        padding-left: 8px;
+        border: solid 1px #9d9d9d;
+    }
+
+    .submit {
+        width: 33%;
+        height: 60px;
+        margin-left: 8px;
+        background: $gradient;
+        color: white;
+        border: solid 1px #656565;
+        transition: .8s;
+    }
+
+    .submit:hover {
+        box-shadow: #b3b0b0 0px 0px 20px 0px;
+    }
+
+    h1 {
+        color: #e41111;
+        width: 75%;
+    }
+}
